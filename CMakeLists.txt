@@ -143,7 +143,7 @@ endif()
 add_subdirectory(src)
 
 # Agregar el ejecutable main.cpp
-add_executable(${EXECUTABLE_NAME} main.cpp)
+# add_executable(${EXECUTABLE_NAME} main.cpp)
 
 # Enlace de bibliotecas si es necesario
 # target_link_libraries(${EXECUTABLE_NAME} PRIVATE nlohmann_json fmt spdlog)
