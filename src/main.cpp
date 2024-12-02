@@ -137,7 +137,7 @@ int fordFulkerson(FlowGraph& graph, int source, int sink) {
     return maxFlow;
 }
 
-// Búsqueda lineal para encontrar la central más cercana
+// Búsqueda lineal para encontrar la central más cercana  a
 vector<pair<int, int>> nearestCentral(vector<pair<int, int>>& houses, vector<pair<int, int>>& centrals) {
     vector<pair<int, int>> closest(houses.size());
     for (size_t i = 0; i < houses.size(); i++) {
