@@ -5,7 +5,7 @@
 #include <tuple>
 
 // Incluye tu código de producción
-#include "main.cpp"
+#include "foo.cpp"
 
 // Prueba de ejemplo para el cálculo de la distancia
 TEST_CASE("Cálculo de distancia entre dos puntos", "[distance]") {
